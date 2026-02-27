@@ -1,0 +1,70 @@
+.tree-root,
+.tree-children {
+  margin: 0;
+  padding-left: 18px;
+  list-style: none;
+}
+
+.tree-node {
+  margin: 4px 0;
+}
+
+.tree-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  padding: 2px 4px;
+  color: #111827;
+  font: inherit;
+}
+
+.tree-toggle:hover {
+  background: #f3f4f6;
+}
+
+.tree-toggle.is-open {
+  color: #0f172a;
+}
+
+.tree-file {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #374151;
+  padding: 2px 4px;
+}
+
+.tree-name {
+  line-height: 1.25;
+}
+
+.tree-spacer {
+  width: 14px;
+  flex: 0 0 14px;
+}
+
+.tree-chevron {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  transform: rotate(0deg);
+  transition: transform 120ms ease;
+}
+
+.tree-chevron.is-open {
+  transform: rotate(90deg);
+}
+
+.tree-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+
+.tree-empty {
+  color: #6b7280;
+}

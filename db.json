@@ -17,6 +17,16 @@
             "No Way Home": { "type": "file" }
           }
         },
+        "Hulk": {
+          "type": "folder",
+          "children": {
+            "Angry Hulk": { "type": "file" },
+            "Hulk Smash": { "type": "file" },
+            "The Incredible Hulk": { "type": "file" },
+            "Hulk vs Thor": { "type": "file" },
+            "Hulk vs Iron Man": { "type": "file" }
+          }
+        },
         "Iron Man": { "type": "file" },
         "Doctor Strange": { "type": "file" }
       }
