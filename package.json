@@ -7,7 +7,10 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "node --test",
-    "api": "npx json-server --watch db.json --port 3001"
+    "api": "npx json-server --watch db.json --port 3001",
+    "frontend:install": "npm --prefix frontend install",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
   },
   "keywords": [
     "homework",

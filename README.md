@@ -12,6 +12,22 @@ npm start
 
 Open `http://localhost:3000`.
 
+## React Frontend
+
+Frontend app is in `frontend/`.
+
+Install frontend dependencies:
+
+```bash
+npm run frontend:install
+```
+
+Start frontend dev server:
+
+```bash
+npm run frontend:dev
+```
+
 ## Test
 
 ```bash
