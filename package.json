@@ -1,0 +1,18 @@
+{
+  "name": "hw2-file-structure-app",
+  "version": "1.0.0",
+  "description": "Homework 2 app with clean file structure",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "homework",
+    "nodejs",
+    "file-structure"
+  ],
+  "author": "",
+  "license": "ISC"
+}
