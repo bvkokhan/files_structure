@@ -1,20 +1,19 @@
 # HW2 File Structure App
 
-This repository is prepared for homework requirements:
-- `main` branch is intentionally empty (no project files)
-- all project code is in a separate working branch
+Homework project with file-tree visualization built from `db.json`.
 
-## Run
+## Branch Requirement
 
-```bash
-npm start
-```
+- `main` branch is intentionally empty
+- all implementation is in working branch: `homework-2-work`
 
-Open `http://localhost:3000`.
+## Project Parts
 
-## React Frontend
+- `db.json` - source data for the tree
+- `json-server` API - serves data at `http://localhost:3001/root`
+- React frontend (`frontend/`) - renders folder/file tree with open/closed folder states
 
-Frontend app is in `frontend/`.
+## Quick Start
 
 Install frontend dependencies:
 
@@ -22,25 +21,25 @@ Install frontend dependencies:
 npm run frontend:install
 ```
 
-Start frontend dev server:
-
-```bash
-npm run frontend:dev
-```
-
-## Test
-
-```bash
-npm test
-```
-
-## JSON API
-
-1. Put your JSON data into `db.json` (replace example content).
-2. Run:
+Run API (terminal 1):
 
 ```bash
 npm run api
 ```
 
-API starts at `http://localhost:3001`.
+Run frontend (terminal 2):
+
+```bash
+npm run frontend:dev
+```
+
+Open frontend at `http://localhost:5173`.
+
+## Build and Test
+
+Frontend production build:
+
+```bash
+npm run frontend:build
+```
+
