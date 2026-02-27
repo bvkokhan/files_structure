@@ -17,3 +17,14 @@ Open `http://localhost:3000`.
 ```bash
 npm test
 ```
+
+## JSON API
+
+1. Put your JSON data into `db.json` (replace example content).
+2. Run:
+
+```bash
+npm run api
+```
+
+API starts at `http://localhost:3001`.
